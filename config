@@ -55,15 +55,20 @@ output * bg /home/senninrider/Pictures/kaguya.jpg fill
 #
 # 
      input type:keyboard {
-        xkb_layout "br"
+        xkb_layout "us"
    }
 # Borders ,font and gaps
 
     #font pango: Droid Sans
-#   border pixel 4
+
     default_border none	
     gaps inner 7
     gaps outer 5
+# Classe de janela      borda    fundo    texto    indicador borda_filha
+#client.focused          #88c0d0  #88c0d0  #2e3440  #b48ead   #88c0d0
+#client.focused_inactive #4c566a  #4c566a  #d8dee9  #4c566a   #4c566a
+#client.unfocused        #3b4252  #3b4252  #d8dee9  #3b4252   #3b4252
+
 #
 # You can also configure each device individually.
 # Read `man 5 sway-input` for more information about this section.
